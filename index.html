@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
 </head>
 
 <nav class ="topNav">
@@ -25,11 +27,11 @@
             <img src="img/jumbo.jpg" class="jumboImg">
    
         <section class="top-content">
-            <div class="text-container">
+            <div class="text-container" data-aos-duration="2500" data-aos="zoom-in-right">
                 <h2>The Future</h2>
                 <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
             </div>
-            <div class="text-container">
+            <div class="text-container" data-aos-duration="2500" data-aos="zoom-in-left">
                 <h2>The Past</h2>
                 <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
             </div>
@@ -81,5 +83,10 @@
             </nav>
         </footer>
     </div><!-- container -->        
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>

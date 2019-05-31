@@ -8,6 +8,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
 
@@ -26,7 +28,7 @@
      <img src="img/jumbo-about.png" class="jumboImg">
 
      <div class="top-content-about">
-        <div class="text-container">
+        <div class="text-container" data-aos-duration="2500" data-aos="zoom-in-left">
             <h2>About</h2></p>
             <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
               </p>
@@ -36,7 +38,7 @@
 <section id="mainContent">
 
   <div class="mainGrid">
-    <img src="img/about-plan.png" alt="strategy">
+    <img src="img/about-plan.png" class="animated pulse delay-2s" alt="strategy">
       
     <h2>Strategy</h2>
     
@@ -47,7 +49,7 @@
   </div>
 
   <div class="mainGrid">
-    <img src="img/about-working.png" alt="strategy">
+    <img src="img/about-working.png" class="animated pulse delay-2s" alt="strategy">
     
     <h2>How We Work</h2>
     
@@ -57,7 +59,7 @@
   </div>
 
   <div class="mainGrid">
-    <img src="img/about-office.png" alt="strategy">
+    <img src="img/about-office.png" class="animated pulse delay-3s" alt="strategy">
     
     <h2>Places We Work</h2>
 
@@ -67,7 +69,7 @@
   </div>
 
   <div class="mainGrid"> 
-      <img src="img/about-meeting.png" alt="strategy"> 
+      <img src="img/about-meeting.png" class="animated pulse delay-3s" alt="strategy"> 
     <h2>Collaboration</h2>
     
     <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
@@ -92,5 +94,11 @@
         </nav>
       </footer>
     </section><!-- container -->        
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
