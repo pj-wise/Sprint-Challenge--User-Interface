@@ -161,7 +161,7 @@ footer nav a {
     color: #000;
 }
 
-#jumboImg {
+.jumboImg {
     margin-bottom: 15px;
 }
 
@@ -205,3 +205,35 @@ footer nav a {
     background-color: dodgerblue;
 }
 
+/* About CSS starts here */
+
+.top-content-about {
+    padding: 0px 10px 15px 10px;
+    border-bottom: 1px dashed black;
+}
+
+#mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.mainGrid {
+    width: 48%;
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+    font-weight:600;
+}
+
+.mainGrid img {
+    margin: 10px 0;
+}
+
+.mainGrid button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #fff;
+}
