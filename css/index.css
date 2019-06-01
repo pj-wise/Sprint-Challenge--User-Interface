@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,220 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* my code starts here */
+
+.topNav {
+    width: 100%;
+    padding: 20px 100px 30px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topNav a {
+    padding-top: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+.jumboImg {
+    margin-bottom: 15px;
+}
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/* About CSS starts here */
+
+.top-content-about {
+    padding: 0px 10px 15px 10px;
+    border-bottom: 1px dashed black;
+    font-weight: 600;
+}
+
+#mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.mainGrid {
+    width: 48%;
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+    font-weight:600;
+}
+
+.mainGrid img {
+    margin: 10px 0;
+}
+
+.mainGrid button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #fff;
+}
+
+.mainGrid button {
+    color:black;
+    animation-duration: 1500ms;
+    text-decoration: none;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink{
+    from {
+      opacity: 1;
+    }
+  
+    to {
+        background-color: black;
+        color:#fff;
+      opacity: 0.9;
+    }
+  }
+
+
+#footText {
+    padding: 50px 0 30px 0;
+    font-weight: 600;
+}
+
+/* Contact Style */
+
+
+
+
+
+/* contact form area */
+#contact {
+    background-color: white;
+    padding: 3em 7em 0 7em;
+    align-content: center;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-top: -15px;
+    margin-bottom: -2em;
+    font-size: 50px;
+}
+
+#myInfo h4 {
+    margin: 8em 0 0 0;
+    padding-bottom: .2em;
+}
+
+#myEmail {
+    margin-bottom: -9em;
+}
+
+#myInfo a {
+    font-size: 2em;
+    color: #000;
+    text-decoration: none;
+}
+
+#contact #link:hover {
+    color: #EB2250;
+    text-decoration: none;
+}
+
+form {
+    max-width: 420px;
+    margin: 20px auto 20px auto;
+}
+
+.feedback-input {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid#EB2250;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid#EB2250;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#EB2250;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #fff;
+    color:#EB2250;
+    border: 1px solid #EB2250;
 }
